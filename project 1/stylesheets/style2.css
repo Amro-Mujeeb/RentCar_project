@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    flex:1;
+    text-align: center ;
+    margin-right: 50px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-top: 30px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 22px;
+}
+.about{
+    width: 100%;
+    padding: 65px 0px;
+}
+.about img{
+    height: 545px;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* it make sspace in the start and end and between them */
+    justify-content: space-around;
+    
+}
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #66fcf1;
+}
+.about-text p{
+    color: #66fcf1;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
